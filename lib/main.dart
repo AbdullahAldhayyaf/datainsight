@@ -110,35 +110,35 @@ class _MyHomePageState extends State<MyHomePage> {
                   ],
                 ),
                 new CheckboxListTile(
-                  controlAffinity: ListTileControlAffinity.leading,
+                  contentPadding: EdgeInsets.only(left: 200),
                   title: new Text("غير المتلزمين بلبس الكمامة"),
                   value: value1,
                   onChanged: onChangedvalue1,
                   activeColor: Colors.green,
                 ),
                 new CheckboxListTile(
-                  controlAffinity: ListTileControlAffinity.leading,
+                  contentPadding: EdgeInsets.only(left: 252),
                   title: new Text("تجمع للمتسوقين"),
                   value: value2,
                   onChanged: onChangedvalue2,
                   activeColor: Colors.green,
                 ),
                 new CheckboxListTile(
-                  controlAffinity: ListTileControlAffinity.leading,
+                  contentPadding: EdgeInsets.only(left: 210),
                   title: new Text("عدم قياس درجة الحرارة"),
                   value: value3,
                   onChanged: onChangedvalue3,
                   activeColor: Colors.green,
                 ),
                 new CheckboxListTile(
-                  controlAffinity: ListTileControlAffinity.leading,
+                  contentPadding: EdgeInsets.only(left: 240),
                   title: new Text("عدم تطهير العربات"),
                   value: value4,
                   onChanged: onChangedvalue4,
                   activeColor: Colors.green,
                 ),
                 new CheckboxListTile(
-                  controlAffinity: ListTileControlAffinity.leading,
+                  contentPadding: EdgeInsets.only(left: 180),
                   title: new Text("عدم تامين النطهرات والمعقمات"),
                   value: value5,
                   onChanged: onChangedvalue5,
@@ -159,7 +159,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   color: Colors.white,
                 ),
                 SizedBox(
-                  height: 10.0,
+                  height: 40.0,
                 ),
                 RaisedButton(
                   onPressed: () {},
@@ -174,7 +174,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   textColor: Colors.white,
                   padding:
-                      EdgeInsets.symmetric(vertical: 20.0, horizontal: 50.0),
+                      EdgeInsets.symmetric(vertical: 5.0, horizontal: 100.0),
                 ),
               ],
             ),
